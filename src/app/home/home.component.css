@@ -1,0 +1,30 @@
+
+.home{
+    padding: 2%;
+    background-color: #eee;
+}
+
+.home ul {
+    list-style-type: none;
+    background-color:teal;
+    padding-left: 3%;
+
+}
+
+.home ul li{
+
+    padding: 15px;
+    margin: 5px;
+    background-color: sandybrown;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+.home ul li:hover{
+    background-color:tomato;
+}

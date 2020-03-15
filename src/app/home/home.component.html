@@ -1,0 +1,11 @@
+<router-outlet></router-outlet>
+
+<div class="home">
+    <!--<i class="fa fa-fw fa-sort"></i>-->
+    <span (click)="applyAscSort()" class="glyphicon glyphicon-triangle-top"></span>
+    <span (click)="applyDescSort()" class="glyphicon glyphicon-triangle-bottom"></span>
+
+    <ul *ngFor="let user of users">
+        <li><a href="/user">{{user.name}}</a></li>
+    </ul>
+</div>

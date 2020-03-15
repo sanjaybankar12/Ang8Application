@@ -1,0 +1,21 @@
+.header{
+    background-color: royalblue;
+    padding: 1%;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+    transition: all 0.6 ease-in-out;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+.footer {
+    background-color: #222;
+    color: #eee;
+    position: sticky;
+    bottom: 0;
+    padding: 1%;
+    font-size: 14px;
+    text-decoration: underline;
+}
