@@ -1,1 +1,24 @@
-<p>user works!</p>
+
+<div class="user_section">
+    <h3>User Information</h3><br/>
+    <h4 class="strong">{{user.name}}</h4>
+    <hr/>
+    <h4>{{user.address.street}}, {{user.address.suite}}</h4>
+    <h4>{{user.address.city}}, {{user.address.zipcode}}</h4>
+    <hr/>
+    <div>
+        <h4 class="strong">Contact Deatils</h4>
+        <h5>{{user.email}}</h5>
+        <h5>{{user.phone}}</h5>
+        <h5>Website: {{user.website}}</h5>
+    </div>
+    <br/>
+    <div>
+        <h4 class="strong">Company Deatils</h4>
+        <h5>{{user.company.name}}</h5>
+        <h5>{{user.company.catchPhrase}}</h5>
+        <h5>{{user.company.bs}}</h5>
+    </div>
+    <br/>
+    <br/>
+</div>
