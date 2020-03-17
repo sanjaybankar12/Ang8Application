@@ -3,8 +3,8 @@
     <!--<i class="fa fa-fw fa-sort"></i>-->
     <span (click)="applyAscSort()" class="glyphicon glyphicon-triangle-top"></span>
     <span (click)="applyDescSort()" class="glyphicon glyphicon-triangle-bottom"></span>
-
-    <ul *ngFor="let user of users">
-        <li><a routerLink="/user/{{user.id}}">{{user.name}}</a></li>
+    <input type="text" [(ngModel)]="searchVal" class="" placeholder="Search Name"/>
+    <ul *ngFor="let user of users | nameFilter:searchVal">
+        <li><a routerLink="/user/{{user.id}}">{{user?.name}}</a></li>
     </ul>
 </div>

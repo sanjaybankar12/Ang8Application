@@ -28,3 +28,10 @@
 .home ul li:hover{
     background-color:tomato;
 }
+
+.home input {
+    width:150px;
+    border-radius: 5px;
+    margin-left: 10px;;
+    padding: 2px;
+}

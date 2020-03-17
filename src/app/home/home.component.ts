@@ -10,6 +10,7 @@ import { DataService } from '../../services/data.service';
 export class HomeComponent implements OnInit {
 
     users:any[];
+    searchVal:string;
     constructor(private dataService:DataService) {
 
     }
