@@ -9,6 +9,7 @@ export class FooterComponent implements OnInit {
 
   @Input("home") home:string;
   @Input("contactus") contactus:string;
+  @Input("firedata") firedata:string;
   constructor() { }
 
   ngOnInit() {

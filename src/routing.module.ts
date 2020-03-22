@@ -6,6 +6,7 @@ import { ContactUsComponent } from './app/contactus/contactus.component';
 
 import { ContactUsGuard } from './app/contactus/contactus.guard';
 import { ForbiddenComponent } from './app/forbidden/forbidden.component';
+import { FiredataComponent } from './app/firedata/firedata.component';
 
 const routes:Routes=[
     {
@@ -23,6 +24,9 @@ const routes:Routes=[
     },{
         path:'forbidden',
         component:ForbiddenComponent
+    },{
+        path:"firedata",
+        component:FiredataComponent
     }
 ];
 

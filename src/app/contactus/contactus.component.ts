@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { DatabaseService } from '../../services/database.service';
+
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
@@ -11,7 +13,7 @@ export class ContactUsComponent implements OnInit {
   email:string;
   phone:string;
   address:string;
-  constructor() { }
+  constructor(private databaseService:DatabaseService) { }
 
   ngOnInit() {
     this.name = "Sanjay Bankar";

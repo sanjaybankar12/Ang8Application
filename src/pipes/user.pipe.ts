@@ -9,6 +9,8 @@ export class UserPipe implements PipeTransform {
         if(!searchVal) {
             return value;            
         }
-        return value.filter((user:any) => user.name.toLowerCase().includes(searchVal.trim().toLowerCase()));
+        return value.filter((user:any) => 
+            user.name.toLowerCase().includes(searchVal.trim().toLowerCase())
+        );
     }
 }
